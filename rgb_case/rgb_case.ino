@@ -15,6 +15,7 @@ void setup() {
   G.attach(D1);
   B.attach(D2);
 
+  // Prepare output pins for RGB
   pinMode(D5,OUTPUT);
   pinMode(D6,OUTPUT);
   pinMode(D7,OUTPUT);
@@ -35,6 +36,7 @@ int getServoValue(int pin) {
   return val;
 }
 
+// Sets the color for the different RGB LEDs
 void setColor(red,green,blue) {
   analogWrite(red_light_pin, red);
   analogWrite(green_light_pin, green);
