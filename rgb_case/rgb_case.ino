@@ -1,7 +1,5 @@
 // Written for Arduino Uno
-
 // Just change the pins and the sketch will do the rest
-
 // The input of the 3 turn knobs
 const int potpinR = A0;
 const int potpinG = A1;
