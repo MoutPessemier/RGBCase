@@ -10,6 +10,8 @@ const int red_light_pin = 11;
 const int green_light_pin = 10;
 const int blue_light_pin = 9;
 
+// GND of RGB needs to connect with 5V and needs a resistor of 220 Ohm in front of the 3 RGB pins
+
 void setup() {
   // Prepare output pins for RGB
   pinMode(red_light_pin, OUTPUT);
@@ -23,10 +25,10 @@ void loop() {
   int g = getPotentiaValue(potpinG);
   int b = getPotentiaValue(potpinB);
   // Set color of LEDs
-  setColor(r,g,b);
+  setColor(r, g, b);
 }
 
-// reads the value of the knob and maps it to an rgb value
+// reads the value of the potentiometer and maps it to an rgb value
 int getPotentiaValue(int pin) {
   int val = analogRead(pin);
   val = map(val, 0, 1023, 0, 255);
