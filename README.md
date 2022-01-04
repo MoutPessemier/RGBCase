@@ -7,10 +7,10 @@ This project only describes the electric circuit. You can use this in whatever o
 ### Images
 
 <p align="center">
-    <img src="./Images/Green.jpg" width=250 />
-    <img src="./Images/Blue.jpg" width=250 />
-    <img src="./Images/Purple.jpg" width=250 />
-    <img src="./Images/Pink.jpg" width=250 />
+    <img src="./Images/Green.jpg" width=250 alt="Example picture with green glow" />
+    <img src="./Images/Blue.jpg" width=250 alt="Example picture with blue glow" />
+    <img src="./Images/Purple.jpg" width=250 alt="Example picture with purple glow" />
+    <img src="./Images/Pink.jpg" width=250 alt="Example picture with pink glow" />
 </p>
 
 ### Specifications
@@ -23,7 +23,8 @@ This project only describes the electric circuit. You can use this in whatever o
 #### Electric Circuit
 
 [Website used to design the circuit.](https://www.circuit-diagram.org/editor/)
-![Arduino Circuit](Images/Circuit.png)
+
+<img src="./Images/circuit.png" alt="Arduino Circuit" />
 
 ### Usage
 
