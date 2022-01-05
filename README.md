@@ -29,5 +29,3 @@ This project only describes the electric circuit. You can use this in whatever o
 ### Usage
 
 This script is free to use. You just have to change the pins to your setup and let the sketch do the rest.
-
-Copyright &copy; 2020 by Mout Pessemier
